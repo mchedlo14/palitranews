@@ -1,0 +1,85 @@
+.post-detail-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #25292e;
+    position: relative;
+}
+.detail-box{
+    max-width: 900px;
+    height: auto;
+}
+.back-btn{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 40px;
+    height: 40px;
+    background-color: #fdc435;
+    color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.back-icon{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detail-box h2{
+    text-align: center;
+    font-size: 30px;
+    color: #fdc435;
+
+}
+.comments-text{
+    color: #f5f5f5;
+}
+.detail-box p{
+    text-align: center;
+    margin-top: 30px;
+    color: #f5f5f5;
+}
+.person-information{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.mail{
+    color: whitesmoke;
+}
+
+.comments-wrapper{
+    max-width: 900px;
+    width: 90%;
+}
+.comments-text{
+    padding: 10px;
+}
+.showall-btn{
+    width: 82px;
+    background-color: transparent;
+    color: #fdc435;
+    border: 0;
+    cursor: pointer;
+}
+.showall-btn:hover{
+    color: whitesmoke;
+    transition: all 0.5s;
+}
